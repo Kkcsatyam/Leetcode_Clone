@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: rgb(56, 52, 52);
+    color: rgba(13, 13, 14, 0.959);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(166, 178, 173);
+    padding: 30px;
+    gap: 1rem;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 600px;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 90px;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: start;
+
+}
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+#username{
+    width: 80%;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgb(60, 63, 62);
+    color: rgb(202, 210, 218);
+}
+#searchButton{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgb(60, 63, 62);
+    color: rgb(202, 210, 218);
+}
+
+
+
+.circle{
+    border: 1px solid black;
+    position: relative;
+    z-index: 2;
+    width: 120px; /* Set width */
+    height: 120px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    display: flex; /* Center content */
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    color: white;
+    background: conic-gradient(#07703a var(--progress-degree,0%),#0b2b02 0%);
+    flex-direction: column;
+}
+
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+
+
+.progress{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.stats-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;
+}
+
+.h3{
+    font-size: 1rem;
+}
+.card{
+    background-color:greenyellow;
+    width: 40%;
+    max-width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 4rem;
+}
